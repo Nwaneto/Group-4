@@ -711,6 +711,10 @@ ol {
 	margin-right: 20px;
 }
 
+.hero-parag {
+	color: yellow;
+}
+
 .hero__search__phone__text {
 	overflow: hidden;
 }
@@ -738,12 +742,12 @@ ol {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 4px;
-	color: #7fad39;
+	color: #f2f7eb;
 }
 
 .hero__text h2 {
 	font-size: 46px;
-	color: #252525;
+	color: #eef3e7;
 	line-height: 52px;
 	font-weight: 700;
 	margin: 10px 0;
