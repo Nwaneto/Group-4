@@ -164,9 +164,9 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="admin-dashboard.html">
               <i class="icon-grid menu-icon"></i>
-              <span class="menu-title">Home</span>
+              <span class="menu-title">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
@@ -177,10 +177,10 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="book-transit.html">Book a Transit</a></li>
+                <!--<li class="nav-item"><a class="nav-link" href="">Upload product</a></li>-->
                 <li class="nav-item"><a class="nav-link" href="fin-inst-dashboard.html">Financial Aid</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">View History</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Manage History</a></li>
+                <!--<li class="nav-item"> <a class="nav-link" href="">View History</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Manage History</a></li>-->
               </ul>
             </div>
           </li>
@@ -197,7 +197,7 @@
               </ul>
             </div>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">Sell online</span>
@@ -209,7 +209,7 @@
                 <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Financial Aid</a></li>
               </ul>
             </div>
-          </li>
+          </li>-->
         </ul>
       </nav>
       <!-- partial -->
@@ -240,116 +240,156 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6 grid-margin stretch-card">
-              <div class="">
-                <div class="card-people mt-auto">
-                  <img src="images/dashboard/svg.png" alt="people">
-                  <div class="weather-info">
-                    <div class="d-flex">
-                      <div>
-                        <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2>
-                      </div>
-                      <div class="ml-2">
-                        <h4 class="location font-weight-normal">Lagos</h4>
-                        <h6 class="font-weight-normal">Nigeria</h6>
-                      </div>
-                    </div>
+              
+            <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Book your transit</h4>
+                    <form class="form-sample">
+                        <p class="card-description">
+                            Please enter detail of your bookings below
+                        </p>
+                        
+                        <p class="card-description">
+                            Transit
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Source</label>
+                                    <div class="col-sm-9">
+                                        <select class="form-control">
+                                            <option>Select one</option>
+                                            <option>ABUJA FCT</option>
+                                            <option>ABIA</option>
+                                            <option>ADAMAWA</option>
+                                            <option>AKWA IBOM</option>
+                                            <option>ANAMBRA</option>
+                                            <option>BAUCHI</option>
+                                            <option>BAYELSA</option>
+                                            <option>BENUE</option>
+                                            <option>BORNO</option>
+                                            <option>CROSS RIVER</option>
+                                            <option>DELTA</option>
+                                            <option>EBONYI</option>
+                                            <option>EDO</option>
+                                            <option>EKITI</option>
+                                            <option>ENUGU</option>
+                                            <option>GOMBE</option>
+                                            <option>IMO</option>
+                                            <option>JIGAWA</option>
+                                            <option>KADUNA</option>
+                                            <option>KANO</option>
+                                            <option>KATSINA</option>
+                                            <option>KEBBI</option>
+                                            <option>KOGI</option>
+                                            <option>KWARA</option>
+                                            <option>LAGOS</option>
+                                            <option>NASSARAWA</option>
+                                            <option>NIGER</option>
+                                            <option>OGUN</option>
+                                            <option>ONDO</option>
+                                            <option>OSUN</option>
+                                            <option>OYO</option>
+                                            <option>PLATEAU</option>
+                                            <option>RIVERS</option>
+                                            <option>SOKOTO</option>
+                                            <option>TARABA</option>
+                                            <option>YOBE</option>
+                                            <option>ZAMFARA</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Destination</label>
+                                    <div class="col-sm-9">
+                                        <select class="form-control">
+                                            <option>Select one</option>
+                                            <option>ABUJA FCT</option>
+                                            <option>ABIA</option>
+                                            <option>ADAMAWA</option>
+                                            <option>AKWA IBOM</option>
+                                            <option>ANAMBRA</option>
+                                            <option>BAUCHI</option>
+                                            <option>BAYELSA</option>
+                                            <option>BENUE</option>
+                                            <option>BORNO</option>
+                                            <option>CROSS RIVER</option>
+                                            <option>DELTA</option>
+                                            <option>EBONYI</option>
+                                            <option>EDO</option>
+                                            <option>EKITI</option>
+                                            <option>ENUGU</option>
+                                            <option>GOMBE</option>
+                                            <option>IMO</option>
+                                            <option>JIGAWA</option>
+                                            <option>KADUNA</option>
+                                            <option>KANO</option>
+                                            <option>KATSINA</option>
+                                            <option>KEBBI</option>
+                                            <option>KOGI</option>
+                                            <option>KWARA</option>
+                                            <option>LAGOS</option>
+                                            <option>NASSARAWA</option>
+                                            <option>NIGER</option>
+                                            <option>OGUN</option>
+                                            <option>ONDO</option>
+                                            <option>OSUN</option>
+                                            <option>OYO</option>
+                                            <option>PLATEAU</option>
+                                            <option>RIVERS</option>
+                                            <option>SOKOTO</option>
+                                            <option>TARABA</option>
+                                            <option>YOBE</option>
+                                            <option>ZAMFARA</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="card-description">
+                            Other Details
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Weight</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" placeholder="Weight of goods in kg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Budget</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" placeholder="enter transit cost"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label mr-3">Finish</label>
+                                    <button type="button" class="col-sm-8 btn btn-success form-control">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-6 grid-margin transparent">
-              <div class="row">
-                <div class="col-md-6 mb-4 stretch-card transparent">
-                  <div class="card card-tale">
-                    <div class="card-body">
-                      <p class="mb-4">Total Sales</p>
-                      <p class="fs-30 mb-2">4006</p>
-                      <p>10.00% (30 days)</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 mb-4 stretch-card transparent">
-                  <div class="card card-dark-blue">
-                    <div class="card-body">
-                      <p class="mb-4">Total Returns</p>
-                      <p class="fs-30 mb-2">61344</p>
-                      <p>22.00% (30 days)</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
-                  <div class="card card-light-blue">
-                    <div class="card-body">
-                      <p class="mb-4">Goods in transit</p>
-                      <p class="fs-30 mb-2">34040</p>
-                      <p>2.00% (30 days)</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 stretch-card transparent">
-                  <div class="card card-light-danger">
-                    <div class="card-body">
-                      <p class="mb-4">Sum Total</p>
-                      <p class="fs-30 mb-2">47033</p>
-                      <p>0.22% (30 days)</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              </div>            
           </div>
-          <div class="row">
-            <div class="col-md-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-title">Order Details</p>
-                  <p class="font-weight-500">The total number of orders. This displays the sum total of both completed orders and incomplete orders recieved by you on this platform</p>
-                  <div class="d-flex flex-wrap mb-5">
-                    <div class="mr-5 mt-3">
-                      <p class="text-muted">Order value</p>
-                      <h3 class="text-primary fs-30 font-weight-medium">12.3k</h3>
-                    </div>
-                    <div class="mr-5 mt-3">
-                      <p class="text-muted">Orders</p>
-                      <h3 class="text-primary fs-30 font-weight-medium">14k</h3>
-                    </div>
-                    <div class="mr-5 mt-3">
-                      <p class="text-muted">Users</p>
-                      <h3 class="text-primary fs-30 font-weight-medium">71.56%</h3>
-                    </div>
-                    <div class="mt-3">
-                      <p class="text-muted">Downloads</p>
-                      <h3 class="text-primary fs-30 font-weight-medium">34040</h3>
-                    </div> 
-                  </div>
-                  <canvas id="order-chart"></canvas>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                 <div class="d-flex justify-content-between">
-                  <p class="card-title">Sales Report</p>
-                  <a href="#" class="text-info">View all</a>
-                 </div>
-                  <p class="font-weight-500">The total number of  completed sales made. This displays the sum total of sales successfully completed by you on this platform</p>
-                  <div id="sales-legend" class="chartjs-legend mt-4 mb-2"></div>
-                  <canvas id="sales-chart"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
-          
         </div>
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
         <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
-              <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  Group4 Co. LTD. All rights reserved.</span>
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  Group4 Company. LTD. All rights reserved.</span>
           </div>
         </footer> 
         <!-- partial -->
